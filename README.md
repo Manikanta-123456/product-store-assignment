@@ -1,16 +1,14 @@
-# stylestore
+# StyleStore - Product Discovery App
 
-A new Flutter project.
+## 🚀 Features
+- **Product Feed:** Real-time data fetching from FakeStoreAPI.
+- **Persistence:** Likes/Dislikes are saved locally using Shared Preferences.
+- **Internal WebView:** View product details without leaving the app.
+- **State Management:** Centralized state using the Provider package.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Architecture
+The project follows a modular structure to separate business logic from the UI:
+- **Models:** Data parsing for API responses.
+- **Services:** API and Local Storage handling.
+- **Providers:** State logic for likes and feed management.
+- **Screens:** UI components and WebView integration.
